@@ -10,7 +10,7 @@ Console.Clear();
 System.Console.WriteLine("Введите два числа");
 int Number1 = int.Parse(Console.ReadLine());
 int Number2 = int.Parse(Console.ReadLine());
-if ( Number1==Number2*Number2 || Number2==Number1*Number1)
+if ( Number1==Number2*Number2 || Number2==Number1*Number1) //Math.Pow(Number2,2)==Number1
 System.Console.WriteLine("Да");
 else 
 Console.WriteLine("Нет");
