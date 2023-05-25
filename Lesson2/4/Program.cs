@@ -15,9 +15,8 @@ Console.Clear();
 Console.WriteLine("Введите число");
 int num = int.Parse(Console.ReadLine());
 int a=7, b=23;
-if ((num%7==0) && (num%23==0))
-Console.WriteLine($"Число {num} кратно 7 и 23");
+if (num%7==0 && num%23==0)
+    Console.WriteLine($"Число {num} кратно 7 и 23");
 else
-{
     Console.WriteLine($"Число {num} некратно 7 и 23");
-}
+
